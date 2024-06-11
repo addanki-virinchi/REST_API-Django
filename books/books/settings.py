@@ -78,9 +78,9 @@ WSGI_APPLICATION = "books.wsgi.application"
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'student',
-        'USER': 'root',
-        'PASSWORD': '*virinchi*',
+        'NAME': 'student',#yours's databasename
+        'USER': 'root',#your's username
+        'PASSWORD': '',#your's password
         'HOST': 'localhost',  # or '127.0.0.1'
         'PORT': '3306',  # MySQL default port
     }
